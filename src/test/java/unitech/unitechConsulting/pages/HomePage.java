@@ -12,9 +12,9 @@ public class HomePage extends BaseClass {
 	public HomePage() {
 		super(driver);	
 	}
-	//a[@href='https://psptech.net']
-	@FindBy (xpath = "//a[@href='https://psptech.net'][1]")
-	public WebElement ClickHomeAboutUs;
+
+	@FindBy (xpath = "//a[@href='https://psptech.net/about-us/'][1]")
+	public WebElement ClickHomeHedderAboutUs;
 	
 	@FindBy (xpath = "(//a[@href='https://psptech.net'])[1]")
 	public WebElement ClickHome;
@@ -36,22 +36,22 @@ public class HomePage extends BaseClass {
 	@FindBy (how = How.XPATH, using = "(//a[@href='https://psptech.net/software-development/'])[8]")
 	public WebElement DiscoverMore2Click;
 	
-	@FindBy (xpath= "(//a[@href='https://psptech.net/about-us/'])[3]")
-	public WebElement HomepageAboutusClick;
+//	@FindBy (xpath= "(//a[@href='https://psptech.net/about-us/'])[3]")
+	@FindBy (xpath= "//a[@href='https://psptech.net/about-us/'][1]")
+	public WebElement HomepageHedderAboutusClick;
 	
 	@FindBy (xpath= "//body[@class='home page-template-default page page-id-7 wp-custom-logo antaris-home antaris-addons no-sidebar elementor-default elementor-kit-5 elementor-page elementor-page-7 e--ua-blink e--ua-chrome e--ua-webkit']")
-	public WebElement MouseOverCareer;
+	public WebElement ClickHomePageHedderCareer;
 	
 	
 	@FindBy (xpath = "//link[@rel='profile']")	
 	public WebElement ClickHome1;
 	
 	@FindBy (xpath= "//body[@class='home page-template-default page page-id-7 wp-custom-logo antaris-home antaris-addons no-sidebar elementor-default elementor-kit-5 elementor-page elementor-page-7 e--ua-blink e--ua-chrome e--ua-webkit']")
-	public WebElement MouseOverContactUS;
+	public WebElement ClickHomePageHedderContactUS;
 	
 	//@FindBy (xpath = "(@FindBy (xpath = "//a[@href='https://psptech.net']"
 		//	+ "	public WebElement ClickHome;")
 	//public WebElement ClickHome2;
 
 }
-//body[@class='home page-template-default page page-id-7 wp-custom-logo antaris-home antaris-addons no-sidebar elementor-default elementor-kit-5 elementor-page elementor-page-7 e--ua-blink e--ua-chrome e--ua-webkit']

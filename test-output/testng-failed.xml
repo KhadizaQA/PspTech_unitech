@@ -3,13 +3,15 @@
 <suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="unitech.unitechConsulting.testCases.Career_page_TC_001">
+      <class name="unitech.unitechConsulting.testCases.Home_Page_TC_001">
         <methods>
-          <include name="TC_012_software_development_BargerMenu_Career_click"/>
-          <include name="setUp"/>
+          <include name="TC_007_ClickDiscoverMore1_button"/>
+          <include name="TC_006_header_ContactUS_button_click"/>
+          <include name="TC_005_header_Career_button_click"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- unitech.unitechConsulting.testCases.Career_page_TC_001 -->
+      </class> <!-- unitech.unitechConsulting.testCases.Home_Page_TC_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
